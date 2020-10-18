@@ -180,7 +180,7 @@ def main():
     snack = cube(randomSnack(rows, s), color=(0,255,0))
     flag = True
  
-    clock = pygame.time.Clock()
+    clock = pygame.time.clock()
    
     while flag:
         pygame.time.delay(50)
@@ -198,7 +198,7 @@ def main():
                 break
  
            
-        redrawWindow(win)
+        redrawWindow(win) bie jeno karry mark
  
        
     pass
@@ -206,3 +206,4 @@ def main():
  
  
 main()
+thank you
